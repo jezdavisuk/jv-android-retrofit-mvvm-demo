@@ -21,6 +21,26 @@ public class Fruit {
         this.nutritions = nutritions;
     }
 
+    private class NutritionProfile {
+        int calories;
+        double fat;
+        double sugar;
+        double carbohydrates;
+        double protein;
+
+        public NutritionProfile() {
+
+        }
+
+        public NutritionProfile(int calories, double fat, double sugar, double carbohydrates, double protein) {
+            this.calories = calories;
+            this.fat = fat;
+            this.sugar = sugar;
+            this.carbohydrates = carbohydrates;
+            this.protein = protein;
+        }
+    }
+
 
 
 }
