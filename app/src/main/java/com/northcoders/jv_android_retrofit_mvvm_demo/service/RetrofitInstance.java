@@ -8,5 +8,10 @@ public class RetrofitInstance {
 
     private static final String BASE_URL = "https://fruityvice.com/api/fruit/";
 
+    public static ApiService getService() {
+        assert retrofit == null;
+
+    }
+
 
 }
